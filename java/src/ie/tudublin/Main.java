@@ -4,62 +4,62 @@ package ie.tudublin;
 
 public class Main
 {
-    public static void helloProcessing()
+    public static void HelloProcessing()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new HelloProcessing());
     }
 
-    public static void starMap()
+    public static void StarMap()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new StarMap());
     }
 
-    public static void bugZap()
+    public static void BugZap()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new BugZap());
     }
 
-    public static void loops()
+    public static void Loops()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Loops());
     }
 
-    public static void arrays()
+    public static void Arrays()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Arrays());
     }
 
-    public static void life()
+    public static void Life()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Life());
     }
 
-    public static void timing()
+    public static void Timing()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new TimingExample());
     }
 
 
-    public static void audio1()
+    public static void Audio1()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Audio1());
     }
 
-    public static void audio2()
+    public static void Audio2()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Audio2());
     }
 
-    public static void colorfulLife()
+    public static void ColorfulLife()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new ColorfulLife());
@@ -70,8 +70,13 @@ public class Main
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new YASC());
     }
+    public static void BugZapFollow()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new BugZapFollow());
+    }
 
-    public void cat()
+    public void Cat()
     {
         System.out.println("Hello world");
 
@@ -96,10 +101,11 @@ public class Main
     }
     public static void main(String[] args)
     {
-        timing();
-
+        //Timing();
+        StarMap();
         // Tara Misty
         // Tara Tara
-        
+        //BugZap();
+        //BugZapFollow();
     }
 }
